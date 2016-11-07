@@ -2,6 +2,7 @@
 wrap rapidjson for lua
 
 json null value :   rapidjson.null
+
 api:
 	rapidjson.decode(js)   	
 

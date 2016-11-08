@@ -1,5 +1,5 @@
 # lua-rapidjson
-**wrap rapidjson for lua**
+wrap rapidjson for lua
 
 ###json null value :   rapidjson.null
 

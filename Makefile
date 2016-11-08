@@ -1,6 +1,5 @@
 INCLUDE_LUA=-I../../3rd/lua
-INCLUDE_LUA=-I/home/yd/web/luajit/include/luajit-2.1/
-CFLAGS = -g -O2 -Wall $(INCLUDE_LUA)
+CFLAGS = -g -O2 -Wall $(INCLUDE_LUA)  -I$(LUA_INCLUDE_DIR) -I./rapidjson/include
 CXXFLAGS= -std=c++11 -fpermissive
 
 SHARED = -fPIC -shared
